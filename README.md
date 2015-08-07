@@ -10,6 +10,12 @@ App::CopyPasteDetector - It's new $module
 
 App::CopyPasteDetector is ...
 
+# METHODS
+
+## my $value = $self->distance($string1, $string2);
+
+calculate Levenshtein Distance between $string1 and $string2
+
 # LICENSE
 
 Copyright (C) Takuya Tsuchida.
@@ -19,4 +25,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-Takuya Tsuchida <takuya.tsuchida@gmail.com>
+Takuya Tsuchida <tsucchi@cpan.org>

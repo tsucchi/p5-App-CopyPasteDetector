@@ -1,0 +1,13 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+use App::CopyPasteDetector;
+
+main();
+exit 0;
+
+sub main {
+    my $app = App::CopyPasteDetector->new();
+    $app->run(@ARGV);
+}
