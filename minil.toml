@@ -1,0 +1,6 @@
+name = "App-CopyPasteDetector"
+# badges = ["travis"]
+authority="cpan:TSUCCHI"
+
+module_maker="ModuleBuildTiny"
+
